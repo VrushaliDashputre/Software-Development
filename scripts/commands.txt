@@ -1,0 +1,27 @@
+1) chrome -> AWS sign up -> root user -> sign in
+2) upper left side - > services option -> EC2 -> resources -> launch instance -> server name (ubuntu) -> create key pair -> .ppk file -> create key pair -> launch instance
+3) select running instance -> (left side) network & security option -> inbound rules -> edit inbound rules -> add rule -> (custom) anywhere ipv4 -> (custom TCP) all traffic -> save rules
+4) ******EC2 instance connect window madhe*********
+   sudo apt update
+   sudo apt install npm      YES
+   sudo apt install nodejs
+   npm install express
+5) git config --global user.name "VrushaliDashputre"
+   git config --global user.email "vrushali.dashputre@gmail.com"
+6) mkdir mysite -> cd mysite -> ls
+7) git clone https://github.com/VrushaliDashputre/Software-Development.git         -> ls
+8) cd Sftware-development -> node server.js
+9) ******jith pn docker file asel tithech hi command yeil*****
+   docker -v
+   sudo apt install docker.io     YES
+   sudo systemctl status docker   ACTIVE
+   sudo docker build -t nodewebapp .
+   sudo docker images
+   sudo docker run -d -p 7667:7667 nodewebapp
+   sudo docker ps
+
+
+
+10) download PuTTY client -> MSI (windows installer) -> 64x version -> run -> next -> install -> finish
+11) PuTTY configuration -> Host name(instance running- public IPv4 address copy kar) -> connection -> data login details- auto login -> username -> ubuntu -> (under SSH) Auth -> credentials -> test.ppk -> open PuTTY security alert -> access
+12) sudo apt update -> git -v -> copy-paste the git clone path
